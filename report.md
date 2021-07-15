@@ -1,14 +1,14 @@
-﻿# Отчёт о тестировании <Money Transfer>
+﻿# Отчёт о тестировании <Precision>
 
 ## Краткое описание
 
 <15.07.2021> - <15.07.2021> было проведено <Функциональное тестирование> 
-приложения <Money Transfer>.
+приложения <Precision>.
 
 На тестирование затрачено: <1ч>
 
 В результате тестирования выявлены следующие дефекты:
-* [не верная конечная сумма](https://github.com/AlexRV83/money-transfer/issues/1)
+* [не верная сумма бонуса](https://github.com/AlexRV83/Precision/issues/1)
 
 
 
@@ -21,8 +21,15 @@
 
 
 В качестве тестовых данных использовались данные:
-* <Сумма на счету 2_000_000_000 (два миллиарда рублей)>
-* <сумма перевода 500_000_000 (пятьсот миллионов рублей)>
+* <public class Main {
+  public static void main(String[] args) {
+    double regularBonus = 0.3;
+    double specialBonus = 0.6;
+    double totalBonus = regularBonus + specialBonus;
+    System.out.println(totalBonus);
+  }
+}>
+
 
 
 Тестирование производилось в следующем окружении:
