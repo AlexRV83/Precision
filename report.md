@@ -8,15 +8,15 @@
 На тестирование затрачено: <1ч>
 
 В результате тестирования выявлены следующие дефекты:
-* [не верная сумма бонуса](https://github.com/AlexRV83/Precision/issues/1)
+* [не корректная сумма бонуса новым клиентам](https://github.com/AlexRV83/Precision/issues/1)
 
 
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
-* Test case
-* Bug report
+* [Test case](https://github.com/netology-code/javaqa-homeworks/tree/master/programming)
+
 
 
 
